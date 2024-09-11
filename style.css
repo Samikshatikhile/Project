@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color:black;
+    overflow-x: hidden;
+
+}
+#page1{
+    height: 110vh;
+    width: 100vw;
+    background-color: #C5BDB3;
+    position: relative;
+  
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  1px solid #222;
+}
+#nav img{
+    height: 30px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+#elems{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+}
+#elems1{
+    width: 30%;
+    height: 100%;
+  
+}
+#elems2{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #222;
+    border-left:2px solid #222;
+    padding: 20px 60px;
+    text-align: center;
+  
+}
+#elems3{
+    width: 30%;
+    height: 100%;
+  
+}
+#elems1 #img-div1{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    background-position: center;
+    background-size: cover;
+
+   
+}
+#img-div1:hover{
+    scale: 1.1;
+    background-position: center;
+    background-size: cover;
+}
+#elems3 #img-div2{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    background-position: center;
+    background-size: cover;
+
+}
+#img-div2:hover{
+    scale: 1.1;
+    background-position: center;
+    background-size: cover;
+}
+#elems h4{
+    font-size:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans';
+}
+#elems1 h4 span{
+    background-color:orangered;
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+#elems3 h4 span{
+    background-color:orangered;
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+#elems p{
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 4px;
+   
+}
+#elems2 h2{
+    font-family: gill sans;
+    font-size: 43px;
+    font-weight: 100;
+
+}
+#elems2 h3{
+    font-family: gill sans;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+#elems2 h6{
+    font-family: gill sans;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+#page1 h1{
+    font-size: 280px;
+    font-family: Georgia;
+    background-color: #1B1B19;
+    font-weight: 100;
+    color: #C3BBB2;
+    letter-spacing: -20px;
+    
+}
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #C5BDB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    
+}
+#page2-left{
+    height: 100%;
+    width: 35%;
+    padding-right: 50px;
+    border-right: 1px solid #222;
+
+}
+
+#page2-left h2{
+    height: 30%;
+    font-size: 20px;
+    font-family: canopee;
+    text-align: center;
+  
+}
+#page2-left h2 span{
+    font-size: 140px;
+    font-weight: 200;
+}
+
+#page2-right{
+    height: 100%;
+    width: 60%;
+    padding:  0 50px;
+
+}
+#page2-right img{
+    height: 53%;
+    width: 100%;
+    object-fit: cover;
+    border-top: 1px solid #222;
+}
+#page2-left img{
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#page2-left p{
+    font-size: 22px;
+    font-family: domain;
+    color: brown;
+}
+
+
+#page2-right h1{
+    font-family:canopee;
+    font-size: 52px;
+
+}
+#page3{
+    height: 22vh;
+    width: 100%;
+    background-color: #C5BDB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#page3 h1{
+    font-size: 230px;
+    font-family: Georgia;
+    background-color: #1B1B19;
+    font-weight: 100;
+    color: #C3BBB2;
+    letter-spacing: -20px;
+
+
+}
+#page3 img{
+
+}
